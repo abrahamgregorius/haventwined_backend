@@ -36,8 +36,8 @@ Proyek ini adalah **backend API** yang dibangun dengan **Laravel**, dirancang un
 
 ### **1. Clone the Repository**
 ```sh
-git clone <repository-url>
-cd <project-folder>
+git clone https://github.com/abrahamgregorius/haventwined_backend
+cd haventwined_backend
 ```
 ### **2. Install Dependencies**
 ```sh
