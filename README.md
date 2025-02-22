@@ -1,5 +1,28 @@
 # Setup Guide
 
+# 📌 Ringkasan
+
+Proyek ini adalah **backend API** yang dibangun dengan **Laravel**, dirancang untuk mengelola **autentikasi pengguna, informasi perusahaan, dan banner**. API ini menyediakan endpoint yang dapat diakses secara publik serta endpoint yang memerlukan autentikasi menggunakan **Laravel Sanctum**.
+
+## 🛠️ Fitur  
+
+### 🔐 **Autentikasi**  
+- `POST /login` → Login pengguna  
+- `POST /logout` → Logout pengguna (memerlukan autentikasi)  
+
+### 🏢 **Informasi Perusahaan**  
+- `GET /info` → Mengambil informasi perusahaan  
+- `POST /info` → Memperbarui informasi perusahaan (memerlukan autentikasi)  
+
+### 🖼️ **Pengelolaan Banner**  
+- `GET /banner` → Mengambil semua banner  
+- `GET /banner/{banner}` → Mengambil detail banner tertentu  
+- `POST /banner` → Menambahkan banner baru (memerlukan autentikasi)  
+- `PUT /banner/{banner}` → Memperbarui banner (memerlukan autentikasi)  
+- `DELETE /banner/{banner}` → Menghapus banner (memerlukan autentikasi)  
+
+
+
 [Frontend Repo](https://github.com/abrahamgregorius/haventwined_frontend)
 
 ## **Prerequisites**
