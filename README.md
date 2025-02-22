@@ -1,5 +1,6 @@
 # Setup Guide
 
+[Frontend Repo](https://github.com/abrahamgregorius/haventwined_frontend)
 
 ## **Prerequisites**
 - **PHP** (>= 8.1)  
